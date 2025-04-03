@@ -20,10 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-slate-950 text-slate-50`}>
+      <body className={`${inter.className} flex min-h-screen bg-slate-950 text-slate-50`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <SidebarProvider>
-            <div className="flex min-h-screen">
+            <div className="flex min-h-screen w-full">
               <AppSidebar />
               <div className="flex-1">
                 <AppHeader />
