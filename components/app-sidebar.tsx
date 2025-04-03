@@ -96,9 +96,9 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible="icon" className="border-r border-slate-800">
       <SidebarHeader className="border-b border-slate-800 py-3">
-        <div className="flex items-center gap-2 px-4">
-          <Shield className="h-6 w-6 text-cyan-500" />
-          <span className="text-lg font-bold text-white">CyberShield</span>
+        <div className="flex items-center gap-2 px-1 ">
+          <Shield className="h-6 w-6 text-cyan-500 shrink-0 " />
+          <span className="text-lg px-1 font-bold text-white">CyberShield</span>
         </div>
       </SidebarHeader>
       <SidebarContent>
